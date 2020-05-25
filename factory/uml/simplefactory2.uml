@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.aen.factory.simple.order.OrderPizza2</OriginalElement>
+  <nodes>
+    <node x="212.0" y="317.0">com.aen.factory.simple.order.SimpleFactory</node>
+    <node x="152.5" y="0.0">com.aen.factory.simple.pizza.Pizza</node>
+    <node x="0.0" y="317.0">com.aen.factory.simple.order.OrderPizza2</node>
+    <node x="344.0" y="219.0">com.aen.factory.simple.pizza.PepperPizza</node>
+    <node x="172.0" y="219.0">com.aen.factory.simple.pizza.GreekPizza</node>
+    <node x="0.0" y="219.0">com.aen.factory.simple.pizza.CheesePizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.aen.factory.simple.pizza.PepperPizza" target="com.aen.factory.simple.pizza.Pizza">
+      <point x="0.0" y="-26.5" />
+      <point x="420.0" y="194.0" />
+      <point x="311.66666666666663" y="194.0" />
+      <point x="63.66666666666663" y="84.5" />
+    </edge>
+    <edge source="com.aen.factory.simple.pizza.CheesePizza" target="com.aen.factory.simple.pizza.Pizza">
+      <point x="0.0" y="-26.5" />
+      <point x="76.0" y="194.0" />
+      <point x="184.33333333333334" y="194.0" />
+      <point x="-63.66666666666666" y="84.5" />
+    </edge>
+    <edge source="com.aen.factory.simple.pizza.GreekPizza" target="com.aen.factory.simple.pizza.Pizza">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="84.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="60.0" y="136.0" />
+  <SelectedNodes>
+    <node>com.aen.factory.simple.order.OrderPizza2</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
